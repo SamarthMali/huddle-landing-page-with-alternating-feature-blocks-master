@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Very_Pale_Cyan: hsl(193, 100%, 96%);
+    --Very_Dark_Cyan: hsl(192, 100%, 9%);
+    --Grayish_Blue: hsl(208, 11%, 55%);
+    --heading_font: 'Poppins', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+   
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: var(--Very_Pale_Cyan);
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+    height: 58px;
+}
+
+.navbar img{
+    width: 15%;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: var(--Very-Dark-Cyan);
+    font-size: 0.8rem;
+    padding: 25px;
+    font-weight: 700;
+    padding: 15px 60px;
+    background-color: white;
+    border-radius: 2.1rem;
+        box-shadow: 0px 2px 3px -1px var(--Grayish_Blue);
+}
+.navbar a:hover{
+    color: var(--Grayish_Blue);
+}
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    height: 448px;
+    flex: 1;
+    align-items: flex-end;
+    margin: 39px;
+    gap: 25px;
+    height: 400px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.content{
+    width: 40%;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+
+.hero-section .content h1{
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    color: var(--Very_Dark_Cyan);
+}
+
+.hero-section .content p{
+    color: var(--Very-Dark-Cyan);
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 29px;
+}
+
+.hero-section .content a{
+    padding: 16px 50px; 
+    text-decoration: none;
+    color: var(--Very-Dark-Cyan);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: var(--Pink);
+    border-radius: 2.1rem;
+    color: white;
+    box-shadow: 0px 2px 3px -1px white;
+    
+}
+
+
+.hero-section .hero-img img{
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+
+.card-section{
+    height: 20%;
+    
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+}
+
+.card-content, .card-illustration{
+    width: 35%;
+}
+.card-illustration img{
+    width: 100%;
+    margin: 70px auto;
+}
+
+.card-content p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.card-content h2{
+    margin-bottom: 25px;
+}
+
+.cards{
+    margin: 100px;
+    box-shadow: 0 0 6px 1px rgba(128, 141, 153, 0.342);
+    border-radius: 15px;
+    /* height: 438px; */
+}
+
+.community{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center; 
+    padding: 45px 70px;
+    box-shadow: 0 0 6px 1px rgb(128 141 153 / 34%);
+    border-radius: 15px;
+    top: 65px;
+    background: white;
+}
+
+.community-card a{
+    padding: 16px 50px; 
+    text-decoration: none;
+    color: var(--Very-Dark-Cyan);
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: var(--Pink);
+    border-radius: 2.1rem;
+    color: white;
+    box-shadow: 0px 2px 3px -1px white;
+}
+
+.community-card h3{
+    margin-bottom: 50px;
+}
+
+
+
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-size: 13px;
+}
+
+
+.footer-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 59px 84px;
+    line-height: 30px;
+    padding: 15px 84px;
+}
+
+
+.footer-one{
+    width: 51%;
+}
+
+.footer-two,.footer-three{
+    width: 20%;
+}
+
+.footer-four{
+    width: 30%;
+    text-align: center;
+}
+
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--Grayish_Blue);
+}
+footer{
+    color: var(--Grayish_Blue); 
+    padding: 55px;
+}
+
+.footer-one ul li i{
+    margin-right: 25px;
+    display: inline;
+    
+}
+
+.footer-one ul li {
+    display: flex;
+    
+}   
+
+.footer-four{
+    display: flex;
+}
+.footer-four div i{
+    padding: 14px;
+    border: 1px solid var(--Grayish_Blue);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.footer-four .social-icons{
+    margin: 5px;
+}
+
+.footer-four .social-icons{
+    padding: 15px;
+    /* background-color: var(--Grayish_Blue); */
+}
+
+.f-logo{
+    width: 155px;
+    padding: 12px 84px;
+}
+
+
+
+/* hover effects */
+.hero-section .content a:hover {
+   
+    background-color: hsla(322, 100%, 66%, 0.822);
+}
+
+
+.community-card a:hover {
+    background-color: hsla(322, 100%, 66%, 0.822);
+}
+
+footer a:hover{
+    text-decoration: underline;
+   
+}
